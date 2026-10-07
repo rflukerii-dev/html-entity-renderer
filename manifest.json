@@ -1,0 +1,9 @@
+{
+  "id": "html-entity-renderer",
+  "name": "HTML Entity Renderer",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Renders HTML character entities such as &copy; and &#169; as characters in Obsidian's editor while preserving the Markdown source.",
+  "author": "Reggie Fluker",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test coverage and caches
+coverage/
+.nyc_output/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Generated build output
+dist/
+build/
+
+# Local environment files (keep example templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Editor settings and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local Obsidian vault settings and plugin data
+.obsidian/
+/data.json
