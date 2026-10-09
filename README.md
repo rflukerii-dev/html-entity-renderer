@@ -16,6 +16,20 @@ Entities are only rendered in Live Preview. Source mode, inline code, code block
 
 Entities that would display as nothing or as a line break (`&NewLine;`, `&Tab;`, `&shy;`, `&zwj;`, `&#x200B;`) and invalid numeric references (`&#0;`, `&#xD800;`) are also left as source, so they stay visible and editable.
 
+## Screenshots
+
+![A note with HTML entities, shown before and after the plugin](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/01-before-after.png)
+
+| ![Moving the cursor into an entity reveals its source for editing](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/02-cursor-reveal.png) | ![A real note using named entities for typography](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/03-real-note.png) |
+|---|---|
+| ![Entities inside inline code and code blocks stay as written](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/04-code-stays-code.png) | ![Rendered entities in light and dark themes](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/05-any-theme.png) |
+
+### Mobile
+
+| Before and after | Real note |
+|---|---|
+| ![A note with HTML entities on mobile, shown before and after the plugin](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/m01-before-after.png) | ![A real note on mobile using named entities for typography](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/m02-real-note.png) |
+
 ## Install manually
 
 1. Close Obsidian, or leave it open and reload after installation.
