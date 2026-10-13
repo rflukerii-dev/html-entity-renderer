@@ -4,6 +4,7 @@
   "private": true,
   "description": "Obsidian plugin that renders HTML character entities in Live Preview.",
   "scripts": {
+    "build": "node --check main.js",
     "test": "jest"
   },
   "devDependencies": {
