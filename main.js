@@ -86,7 +86,7 @@ class EntityWidget extends WidgetType {
     const span = document.createElement("span");
     span.className = "html-entity-renderer-widget";
     span.textContent = this.decoded;
-    span.title = this.entity;
+    // span.title = this.entity;
     span.setAttribute("aria-label", `${this.entity} → ${this.decoded}`);
     return span;
   }
