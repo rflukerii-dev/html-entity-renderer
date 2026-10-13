@@ -1,8 +1,8 @@
 {
   "name": "html-entity-renderer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
-  "description": "Obsidian plugin that renders HTML character entities in the editor.",
+  "description": "Obsidian plugin that renders HTML character entities in Live Preview.",
   "scripts": {
     "test": "jest"
   },
