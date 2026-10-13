@@ -1,6 +1,6 @@
 # HTML Entity Renderer for Obsidian
 
-Renders HTML character entities in the Obsidian editor without changing the Markdown source.
+Renders HTML character entities in Live Preview without changing the Markdown source.
 
 Examples:
 
@@ -30,7 +30,15 @@ Entities that would display as nothing or as a line break (`&NewLine;`, `&Tab;`,
 |---|---|
 | ![A note with HTML entities on mobile, shown before and after the plugin](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/m01-before-after.png) | ![A real note on mobile using named entities for typography](https://raw.githubusercontent.com/rflukerii-dev/html-entity-renderer/main/screenshots/m02-real-note.png) |
 
-## Install manually
+## Install
+
+### From Community plugins
+
+1. In Obsidian, open **Settings → Community plugins**.
+2. Turn off **Restricted mode**.
+3. Click **Browse**, search for **HTML Entity Renderer**, then select **Install** and **Enable**.
+
+### Manually
 
 1. Close Obsidian, or leave it open and reload after installation.
 2. Open your vault folder.
@@ -42,6 +50,8 @@ Entities that would display as nothing or as a line break (`&NewLine;`, `&Tab;`,
 8. Click the refresh/reload button if the plugin is not listed, or restart Obsidian.
 9. Enable **HTML Entity Renderer**.
 
+## Try it
+
 Test with:
 
     Copyright &copy; 2026
@@ -49,7 +59,7 @@ Test with:
     A&nbsp;B
     &#169; and &#xA9;
 
-The file itself remains unchanged; only the editor display is decorated.
+The file itself remains unchanged; only the Live Preview display is decorated.
 
 ## Development
 
