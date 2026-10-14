@@ -38,7 +38,7 @@ You need Node.js 18 or later.
     npm install
     npm test
 
-`main.js` is the source and needs no bundling, so edit it directly. `npm run build` only syntax-checks it.
+`main.js` is the source. There's no build step, so edit it directly.
 
 To try your changes in Obsidian, use a test vault, not your main one:
 
@@ -54,14 +54,14 @@ Before opening a pull request that changes rendering behavior, walk through `tes
 - Write commit messages in the [Conventional Commits](https://www.conventionalcommits.org/) style, such as `fix: keep entities inside inline code`. Use a short summary in the imperative mood.
 - Add or update tests in `tests/main.test.js`, and make sure `npm test` passes.
 - If your change affects rendering, also run through `tests/manual/live-preview-test-cases.md` in Live Preview and mention any failures in the pull request.
-- Keep `main.js` plain, readable JavaScript with no bundler step and no new runtime dependencies. `obsidian` and `@codemirror/*` come from Obsidian at runtime.
+- Keep `main.js` plain, readable JavaScript with no build step and no new runtime dependencies. `obsidian` and `@codemirror/*` come from Obsidian at runtime.
 - Leave version numbers and release files alone. The maintainer handles releases.
 
 ## Releasing (maintainer)
 
 1. Set `version` in `manifest.json` to the new `x.y.z`, with no `v`.
 2. Run `npm version x.y.z --no-git-tag-version` to update `package.json` and both versions in `package-lock.json`.
-3. Run `npm run build` and `npm test`.
+3. Run `npm test`.
 4. Confirm that all four versions match:
 
         grep -n '"version"' manifest.json package.json
