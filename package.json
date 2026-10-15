@@ -3,6 +3,12 @@
   "version": "0.1.3",
   "private": true,
   "description": "Obsidian plugin that renders HTML character entities in Live Preview.",
+  "license": "MIT",
+  "author": "Reggie Fluker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rflukerii-dev/html-entity-renderer.git"
+  },
   "scripts": {
     "test": "jest"
   },

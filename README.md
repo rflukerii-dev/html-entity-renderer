@@ -61,9 +61,22 @@ Test with:
 
 The file itself remains unchanged; only the Live Preview display is decorated.
 
+## Limitations
+
+- Find matches the source text, not the rendered character. Search for `&mdash;`, not an em dash.
+- Copying a selection copies the source, so pasting gives `&mdash;`, not an em dash.
+
 ## Development
 
 `package.json` and `tests/` are only needed for development; don't copy them into the vault. To run the unit tests (Node.js 18 or later):
 
     npm install
     npm test
+
+## Report issues
+
+Found a bug or have an idea? [Open an issue](https://github.com/rflukerii-dev/html-entity-renderer/issues).
+
+## License
+
+[MIT](LICENSE)
